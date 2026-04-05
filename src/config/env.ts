@@ -9,8 +9,6 @@ const envSchema = z.object({
   MAX_DAILY_LOSS_USD: z.string().default("25"),
   TAKE_PROFIT_PCT: z.string().default("12"),
   STOP_LOSS_PCT: z.string().default("6"),
-  PRIVATE_KEY: z.string().default("0xYOUR_PRIVATE_KEY_HERE"),
-  DRY_RUN: z.string().default("true"),
   EDGE_THRESHOLD_BPS: z.string().default("80"),
   ORDER_SIZE_USD: z.string().default("30"),
   MAX_OPEN_POSITIONS: z.string().default("4"),
